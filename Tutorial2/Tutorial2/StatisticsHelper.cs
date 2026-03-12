@@ -5,17 +5,19 @@ public class StatisticsHelper
     private int a = 0; 
     private int b = 0;
     
-    static StatisticsHelper()
+     public StatisticsHelper()
     {
-        int a = int.Parse( Console.ReadLine());
-        int b = int.Parse( Console.ReadLine());
+        try
+        {
+             a = int.Parse( Console.ReadLine());
+             b = int.Parse( Console.ReadLine());
+        }
+        catch (Exception e)
+        {
+            throw (e);
+            a = 0;
+            b = 0;
+        }
+     
     }
-    
-
-
-
-
-
-
-
 }
