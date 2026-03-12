@@ -1,3 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using Tutorial2;
+
+StatisticsHelper s = new StatisticsHelper();
+
+Console.WriteLine("StatisticsHelper created");
+
+
