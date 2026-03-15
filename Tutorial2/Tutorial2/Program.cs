@@ -6,8 +6,8 @@ StatisticsHelper s = new StatisticsHelper();
 
 Console.WriteLine("StatisticsHelper created");
 
-int[] val = [2,3];
-Console.WriteLine(CalculateAverage(val));
+int[] val2 = [2,3];
+Console.WriteLine(CalculateAverage(val2));
 
 
 float CalculateAverage(int[] values)
