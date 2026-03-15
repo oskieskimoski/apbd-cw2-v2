@@ -20,12 +20,5 @@ float CalculateAverage(int[] values)
 }
 int CalculateMax(int[] values)
 {
-    if (values.Length == 0)
-    {
-        return 0;   
-    }
-
     return values.Max();
 }
-
-
