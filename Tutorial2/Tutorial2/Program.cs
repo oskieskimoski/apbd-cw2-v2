@@ -9,7 +9,12 @@ Console.WriteLine("StatisticsHelper created");
 int[] val = [2,3];
 Console.WriteLine(CalculateAverage(val));
 
+
 float CalculateAverage(int[] values)
-{ 
+{
+    if (values.Length == 0)
+    {
+        return 0;
+    }
     return (float) values.Sum() / values.Length ;
 }
